@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static void printArray(int arr[],int sizeOfArray){
+        for(int i=0;i<sizeOfArray;i++){
+            System.out.println(arr[i]);
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner scn=new Scanner(System.in);
+        int sizeOfArray=scn.nextInt();
+        int arr[]=new int[sizeOfArray];
+        for(int i=0;i<sizeOfArray;i++){
+            arr[i]=scn.nextInt();
+}
+       printArray(arr,sizeOfArray);
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    }
+}
